@@ -1,0 +1,1 @@
+Please open "Village.html". This is the homepage of website. Also you must have active internet connection to see properly this website. Because most of the fonts and maps in this website use remote JS & Google font servers.

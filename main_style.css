@@ -1,0 +1,652 @@
+@font-face{
+	font-family:Aaargh;
+	src:url(Assist files/Fonts/Aaargh.ttf);
+}
+
+body{
+	margin:0;
+}
+
+.top_nav{
+	overflow:hidden;
+	background-color:#363535;
+	padding-top:20px;
+	padding-bottom:20px;
+	top:0;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	
+	font-family:Aaargh;
+	color:white;
+	
+	z-index: 2;
+}
+
+.top_nav a{
+	padding-top:50px;
+	padding-right:20px;
+	padding-left:20px;
+	color:white;
+	text-decoration:none;
+}
+
+.top_nav a:hover{
+	color:#A6A6A6;
+}
+
+.top_logo{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:-100px;
+	padding:0px;
+}
+
+.main_image{
+	margin-top: 50px;
+}
+
+.main_image img{
+	width:100%;
+}
+
+.avi_intro{
+	display:flex;
+}
+
+.first_column{
+	flex:50%;
+	padding-top: 70px;
+	padding-left:250px;
+	padding-bottom:70px;
+}
+
+.first_column img{
+	width:60%;
+}
+
+.second_column{
+	flex:50%;
+	padding-top:80px;
+	padding-right:250px;
+	padding-bottom:70px;
+	
+	font-family:'Merienda', cursive;
+	font-size:20px;
+	
+}
+
+.first_hr{
+	width:50%;
+	background-color:red;
+	height:1px;
+}
+
+.location{
+	padding-bottom:50px;
+	background-image: url('Assist files/Images/vb2.jpg');
+	background-size:cover;
+	
+}
+
+.loca_title{
+	color:white;
+	padding-top:35px;
+	padding-left:50px;
+	
+	font-family:'Merienda', cursive;
+	font-size:40px;
+}
+
+.loca_desc{
+	color:white;
+	padding-top:25px;
+	padding-left:50px;
+	
+	/*text-align: center; */
+	
+	font-family:'Merienda', cursive;
+	font-size:20px;
+}
+
+.loca_map{
+	padding-top:15px;
+	padding-bottom:15px;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.second_hr{
+	width:50%;
+	background-color:red;
+	height:1px;
+}
+
+
+.imp_title{
+	text-align:right;
+	
+	padding-top:35px;
+	padding-right:50px;
+	
+	font-family:'Merienda', cursive;
+	font-size:40px;
+}
+
+.imp_desc{
+	text-align:right;
+	padding-top:25px;
+	padding-right:50px;
+	padding-left:50px;
+	padding-bottom:40px;
+	
+	/*text-align: center; */
+	
+	font-family:'Merienda', cursive;
+	font-size:20px;
+}
+
+.third_hr{
+	width:50%;
+	background-color:red;
+	height:1px;
+}
+.name{
+	padding-bottom:30px;
+	background-image:url('Assist files/Images/vb2.jpg');
+	background-size:cover;
+}
+
+.name_title{
+	text-align:left;
+	
+	padding-top:35px;
+	padding-left:50px;
+	
+	font-family:'Merienda', cursive;
+	font-size:40px;
+	color:white;
+}
+
+.name_desc{
+	text-align:left;
+	padding-top:25px;
+	padding-right:50px;
+	padding-left:50px;
+	
+	font-family:'Merienda', cursive;
+	font-size:20px;
+	color:white;
+}
+
+.more_title{
+	text-align:center;
+	padding-top:25px;
+	padding-bottom:25px;
+	
+	font-family:'Merienda', cursive;
+	font-size:20px;
+}
+
+.footer{
+	display:flex;
+	background-color:#363535;
+	
+	padding-top:20px;
+	padding-bottom:30px;
+}
+
+.first_footer{
+	flex:33.3%;
+	padding-left:30px;
+}
+
+.first_footer img{
+	width:100px;
+	
+	display:block;/* This is for center an image */
+	margin-right:auto;
+	margin-left:auto;
+	padding-top:20px;
+	padding-bottom:5px;
+}
+
+.first_footer p{
+	font-family:Aaargh;
+	font-size:100%;
+	color:white;
+	text-align:center;
+	
+	padding-bottom:20px;
+}
+
+.second_footer{
+	flex:33.3%;
+	padding-bottom:20px;
+}
+
+.second_footer p{
+	font-family:Aaargh;
+	font-size:100%;
+	color:white;
+	text-align:center;
+	
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.second_footer a{
+	font-family:Aaargh;
+	font-size:85%;
+	color:white;
+	text-decoration:none;
+	
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:200px;
+}
+
+.second_footer a:hover{
+	color:#B3B3B3;
+}
+
+.third_footer{
+	flex:33.3%;
+}
+
+.third_footer p{
+	font-family:Aaargh;
+	font-size:100%;
+	color:white;
+	text-align:center;
+	
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.third_footer a{
+	font-family:Aaargh;
+	color:white;
+	text-decoration:none;
+}
+
+.third_footer a:hover{
+	color:#B3B3B3;
+}
+
+.LI-profile-badge{
+	padding-left:125px;
+}
+
+/*Below codes are for Religious Places */
+
+.r-intro p{
+	font-family:'Merienda', cursive;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:125px;
+	padding-right:125px;
+}
+
+.r-hr1{
+	width:50%;
+	border-color:#874503;
+}
+
+.first-item{
+	display:flex;
+	padding-top:60px;
+	padding-bottom:15px;
+}
+
+.first_column1{
+	flex:50%;
+}
+
+.first_column1 img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	padding-left:50px;
+}
+
+.second_column1{
+	flex:50%;
+}
+
+.second_column1 p{
+	font-family:'Merienda', cursive;
+	font-size:40px;
+	text-align: center;
+	
+	
+	padding-top:60px;
+	padding-bottom:70px;
+}
+.second-item {
+	display:flex;
+	
+	padding-top:30px;
+	padding-bottom:15px;
+}
+
+.first_column2 {
+	flex:50%;
+}
+
+.second_column2 {
+	flex:50%;
+}
+
+.first_column2 p{
+	font-family:'Merienda', cursive;
+	font-size:40px;
+	text-align: center;
+	
+	padding-top:60px;
+	padding-bottom:70px;
+	padding-left:60px;
+}
+
+.second_column2 img{
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	padding-left:50px;
+}
+
+.third-item{
+	display:flex;
+	
+	padding-top:30px;
+}
+
+.first_column3{
+	flex:50%;
+}
+
+.second_column3{
+	flex:50%;
+}
+
+.first_column3 img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	padding-left:50px;
+}
+
+.second_column3 p{
+	font-family:'Merienda', cursive;
+	font-size:40px;
+	text-align: center;
+	
+	padding-top:60px;
+	padding-bottom:70px;
+}
+
+.fourth-item {
+	display:flex;
+	
+	padding-top:30px;
+}
+
+.first_column4 {
+	flex:50%;
+}
+
+.second_column4 {
+	flex:50%;
+}
+
+.first_column4 p{
+	font-family:'Merienda', cursive;
+	font-size:40px;
+	text-align: center;
+	
+	padding-top:60px;
+	padding-bottom:70px;
+	padding-left:60px;
+}
+
+.second_column4 img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	padding-left:50px;
+}
+
+/*Below codes are for Schools in Avissawella */
+
+.s-intro p {
+	font-family:'Merienda', cursive;
+	text-align:justify;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:125px;
+	padding-right:125px;
+	
+}
+
+.s-hr1{
+	width:50%;
+	border-color:#874503;
+}
+
+.first-school {
+	display:flex;
+	padding-top:10px;
+}
+
+.second_column1 p{
+	padding-bottom:5px;
+}
+.president-sc {
+	padding-top:40px;
+}
+
+.pr-logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5px;
+	width:15%;
+}
+
+.second-school{
+	display:flex;
+	padding-top:10px;
+}
+
+.first_column2 p{
+	padding-bottom:5px;
+}
+.s-national {
+	padding-top:40px;
+}
+
+.s-logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5px;
+	width:10%;
+}
+
+.third-school{
+	display:flex;
+	padding-top:10px;
+	padding-bottom:30px;
+}
+
+.second_column3 p{
+	padding-bottom:5px;
+}
+.princeway {
+	padding-top:40px;
+}
+
+.p-logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5px;
+	width:15%;
+}
+
+/*Below codes are for Famous for */
+
+.main-contents{
+	margin-top:30px;
+	padding-top:30px;
+	padding-left:40px;
+	padding-right:40px;
+	padding-bottom:30px;
+}
+.main-p{
+	font-family:'Merienda', cursive;
+	text-align:center;
+	font-size:40px;
+}
+
+.sub-p1{
+	font-family:'Merienda', cursive;
+	text-align:justify;
+	font-size:18px;
+}
+
+.s-flag{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:20%;
+}
+
+.s-f-desc{
+	font-family:'Merienda', cursive;
+	text-align:center;
+	font-size:10px;
+}
+
+.main-p1{
+	font-family:'Merienda', cursive;
+	text-align:left;
+	font-size:40px;
+}
+
+.s-map{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10px;
+	width:20%;
+}
+
+/*Below codes are for Beauty*/
+
+.intro-p{
+	font-family:'Merienda', cursive;
+	text-align:center;
+	font-size:18px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #000;
+}
+.separator::before {
+    margin-right: .25em;
+}
+.separator::after {
+    margin-left: .25em;
+}
+
+.sep-p{
+	font-family:'Merienda', cursive;
+	text-align:center;
+	font-size:25px;
+}
+
+.b-images{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	padding-top:10px;
+}
+
+.sb-p{
+	padding-top:10px;
+	font-family:'Merienda', cursive;
+	text-align:justify;
+	font-size:18px;
+}
+
+/* Below codes for Authorities */
+
+.a-in-p{
+	padding-top:25px;
+	font-family:'Merienda', cursive;
+	text-align:center;
+	font-size:25px;
+}
+
+.ur-map{
+	display:table;
+	padding-top:20px;
+	margin:auto;
+}
+
+.addi-details p{
+	text-align:center;
+	font-family:'Merienda', cursive;
+}
+
+.bank {
+	display:flex;
+	padding-top:45px;
+}
+
+.bank-p {
+	font-family:'Merienda', cursive;
+	text-align:center;
+	font-size:28px;
+	padding-top:150px;
+}
+
+.f-col {
+	flex:50%;
+}
+
+.f-col iframe{
+	padding-left:130px;
+}
+.s-col {
+	flex:50%;
+}
+
+.more-info{
+	font-family:'Merienda', cursive;
+	text-align:center;
+	font-size:18px;
+}
+.police {
+	padding-top:25px;
+	display:table;
+	margin:auto;
+}
